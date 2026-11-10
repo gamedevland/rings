@@ -5,7 +5,7 @@ Playable web build for [GameDev.Land](https://gamedev.land/games/rings).
 - Play: https://gamedevland.github.io/rings/
 - Platform: web; no Poki SDK script is loaded.
 - Campaign: 100 spatial levels, portrait and landscape layouts.
-- Source revision: `424bfffe52d6b929a3c0cb42c9fcaf95de0c5ed1`.
+- Source revision: `470b20705d0fee4cdabacc26b9e6ef2bdc9ee286`.
 - Release: 2026-11-10. Replaces the previous Rings build.
 
 Three.js renders the puzzle into a texture displayed by PixiJS together with its UI.
