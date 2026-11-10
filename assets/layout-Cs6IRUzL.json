@@ -50,6 +50,9 @@
           "entranceFx": {
             "type": "Graphics"
           },
+          "motionFx": {
+            "type": "Graphics"
+          },
           "tutorial": {
             "type": "Container",
             "props": {
