@@ -32,49 +32,23 @@
             "type": "BoardInput"
           },
           "tutorial": {
-            "type": "UnlockTutorial",
-            "data": {
-              "level": 1,
-              "ringId": "ring-1",
-              "radius": 1,
-              "touchAngle": 1.5707963267948966,
-              "unlockRadians": 3.141592653589793,
-              "fadeSeconds": 0.18,
-              "pressSeconds": 0.18,
-              "dragSeconds": 1.5,
-              "minimumDragSeconds": 0.4,
-              "releaseSeconds": 0.2,
-              "pauseSeconds": 0.7,
-              "pressScale": 0.92,
-              "handWidth": 80,
-              "handHeight": 60,
-              "guideRadiusRatio": 0.62,
-              "guideWidth": 2.5,
-              "guideAlpha": 0.95,
-              "arrowDiameterRatio": 0.8207048544068027,
-              "arrowAspectRatio": 0.5679012345679012,
-              "arrowMaskRadius": 1,
-              "arrowTipRadians": 0.4,
-              "arrowTailPadding": 0.12,
-              "contactRadius": 11,
-              "color": 14218751
-            }
+            "type": "SpatialTutorial"
           }
         },
         "children": {
           "motion": {
             "type": "Container",
             "children": {
-              "stems": {
-                "type": "Container"
-              },
-              "rings": {
-                "type": "Container"
-              },
-              "holders": {
-                "type": "Container"
+              "scene": {
+                "type": "Sprite",
+                "props": {
+                  "anchor": 0.5
+                }
               }
             }
+          },
+          "entranceFx": {
+            "type": "Graphics"
           },
           "tutorial": {
             "type": "Container",
@@ -82,64 +56,70 @@
               "visible": false
             },
             "children": {
-              "arrow": {
-                "type": "Container",
-                "children": {
-                  "body": {
-                    "type": "Sprite",
-                    "props": {
-                      "asset": "images/ui/tutorial-arrow.webp",
-                      "anchor": {
-                        "x": 0.4758157314766056,
-                        "y": 0.8272303189218855
-                      },
-                      "width": 1,
-                      "height": 0.5679012345679012
+              "title": {
+                "type": "Text",
+                "props": {
+                  "text": "",
+                  "x": 0,
+                  "y": 0,
+                  "anchor": 0.5,
+                  "style": {
+                    "fontFamily": "Rubik",
+                    "fontWeight": "700",
+                    "fontSize": 28,
+                    "fill": "#ffffff",
+                    "align": "center",
+                    "stroke": {
+                      "color": "#05335a",
+                      "width": 4.4
+                    },
+                    "dropShadow": {
+                      "color": "#021b3e",
+                      "alpha": 0.45,
+                      "blur": 2,
+                      "distance": 2,
+                      "angle": 1.5707963267948966
                     }
-                  },
-                  "head": {
-                    "type": "Container",
-                    "children": {
-                      "tip": {
-                        "type": "Sprite",
-                        "props": {
-                          "asset": "images/ui/tutorial-arrow.webp",
-                          "anchor": {
-                            "x": 0.4758157314766056,
-                            "y": 0.8272303189218855
-                          },
-                          "width": 1,
-                          "height": 0.5679012345679012
-                        }
-                      },
-                      "tipMask": {
-                        "type": "Graphics"
-                      }
-                    }
-                  },
-                  "bodyMask": {
-                    "type": "Graphics"
                   }
                 }
               },
-              "contact": {
-                "type": "Graphics"
-              },
-              "cursor": {
-                "type": "Container",
-                "children": {
-                  "hand": {
-                    "type": "Sprite",
-                    "props": {
-                      "asset": "images/ui/hand.webp",
-                      "anchor": {
-                        "x": 0.12,
-                        "y": 0.18
-                      },
-                      "width": 80,
-                      "height": 60
+              "detail": {
+                "type": "Text",
+                "props": {
+                  "text": "",
+                  "x": 0,
+                  "y": 0,
+                  "anchor": 0.5,
+                  "style": {
+                    "fontFamily": "Rubik",
+                    "fontWeight": "700",
+                    "fontSize": 17,
+                    "fill": "#d9edff",
+                    "align": "center",
+                    "stroke": {
+                      "color": "#05335a",
+                      "width": 4.4
+                    },
+                    "dropShadow": {
+                      "color": "#021b3e",
+                      "alpha": 0.45,
+                      "blur": 2,
+                      "distance": 2,
+                      "angle": 1.5707963267948966
                     }
                   }
+                }
+              },
+              "trail": {
+                "type": "Graphics"
+              },
+              "hand": {
+                "type": "Sprite",
+                "props": {
+                  "asset": "images/ui/hand.webp",
+                  "width": 74,
+                  "height": 55,
+                  "anchor": 0
                 }
               }
             }
@@ -938,48 +918,6 @@
           }
         }
       },
-      "hint": {
-        "type": "Container",
-        "components": {
-          "pulse": {
-            "type": "HintPulse",
-            "data": {
-              "minScale": 0.96,
-              "maxScale": 1.06,
-              "seconds": 0.8
-            }
-          }
-        },
-        "children": {
-          "label": {
-            "type": "Text",
-            "props": {
-              "text": "Rotate to unlock",
-              "x": 0,
-              "y": 0,
-              "anchor": 0.5,
-              "style": {
-                "fontFamily": "Rubik",
-                "fontWeight": "700",
-                "fontSize": 44,
-                "fill": "#ffffff",
-                "align": "center",
-                "stroke": {
-                  "color": "#05335a",
-                  "width": 4.4
-                },
-                "dropShadow": {
-                  "color": "#021b3e",
-                  "alpha": 0.45,
-                  "blur": 2,
-                  "distance": 2,
-                  "angle": 1.5707963267948966
-                }
-              }
-            }
-          }
-        }
-      },
       "notice": {
         "type": "Text",
         "props": {
@@ -990,7 +928,7 @@
           "style": {
             "fontFamily": "Rubik",
             "fontWeight": "700",
-            "fontSize": 19,
+            "fontSize": 15,
             "fill": "#d9edff",
             "align": "center",
             "stroke": {
@@ -1044,6 +982,122 @@
                   ],
                   "gravity": 185,
                   "size": 7
+                }
+              }
+            }
+          },
+          "fireworks": {
+            "type": "Graphics",
+            "components": {
+              "fireworks": {
+                "type": "Fireworks",
+                "data": {
+                  "referenceWidth": 540,
+                  "maxScale": 1.35,
+                  "trailDuration": 0.16,
+                  "trailSteps": 8,
+                  "rocketRadius": 3.4,
+                  "glowRadius": 16,
+                  "glowAlpha": 0.3,
+                  "trailWidth": 4.2,
+                  "particleCount": 48,
+                  "sparkLifetime": 0.85,
+                  "sparkSpeed": 360,
+                  "sparkWidth": 3.2,
+                  "sparkTrail": 0.085,
+                  "twinkleFrequency": 24,
+                  "twinkleDepth": 0.45,
+                  "drag": 1.1,
+                  "gravity": 120,
+                  "haloDuration": 0.25,
+                  "haloRadius": 52,
+                  "haloWidth": 3.2,
+                  "coreColor": 16777215,
+                  "trailColor": 16772486,
+                  "launches": [
+                    {
+                      "delay": 0.25,
+                      "duration": 0.26,
+                      "x": 0.18,
+                      "y": 0.3,
+                      "color": 16766554,
+                      "accent": 16774583
+                    },
+                    {
+                      "delay": 0.45,
+                      "duration": 0.28,
+                      "x": 0.82,
+                      "y": 0.27,
+                      "color": 7992319,
+                      "accent": 15794175
+                    },
+                    {
+                      "delay": 0.65,
+                      "duration": 0.29,
+                      "x": 0.38,
+                      "y": 0.18,
+                      "color": 16747481,
+                      "accent": 16770040
+                    },
+                    {
+                      "delay": 0.85,
+                      "duration": 0.3,
+                      "x": 0.66,
+                      "y": 0.19,
+                      "color": 12624895,
+                      "accent": 16774143
+                    },
+                    {
+                      "delay": 1.05,
+                      "duration": 0.28,
+                      "x": 0.26,
+                      "y": 0.42,
+                      "color": 11992948,
+                      "accent": 16121825
+                    },
+                    {
+                      "delay": 1.25,
+                      "duration": 0.29,
+                      "x": 0.74,
+                      "y": 0.4,
+                      "color": 16756060,
+                      "accent": 16773314
+                    },
+                    {
+                      "delay": 1.45,
+                      "duration": 0.27,
+                      "x": 0.48,
+                      "y": 0.29,
+                      "color": 7992319,
+                      "accent": 15794175
+                    },
+                    {
+                      "delay": 1.65,
+                      "duration": 0.28,
+                      "x": 0.18,
+                      "y": 0.18,
+                      "color": 16747481,
+                      "accent": 16770040
+                    },
+                    {
+                      "delay": 1.85,
+                      "duration": 0.29,
+                      "x": 0.84,
+                      "y": 0.18,
+                      "color": 16766554,
+                      "accent": 16774583
+                    },
+                    {
+                      "delay": 2.05,
+                      "duration": 0.3,
+                      "x": 0.52,
+                      "y": 0.17,
+                      "color": 12624895,
+                      "accent": 16774143
+                    }
+                  ],
+                  "originX": 0.5,
+                  "originY": 0.76
                 }
               }
             }
@@ -2815,12 +2869,7 @@
         }
       },
       "transition": {
-        "type": "LevelTransition",
-        "data": {
-          "entrySeconds": 0.45,
-          "entryScale": 0.92,
-          "entryOffset": 32
-        }
+        "type": "LevelTransition"
       },
       "haptics": {
         "type": "HapticFeedback"
