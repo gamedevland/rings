@@ -1,9 +1,9 @@
 {
   "game": "rings-3d",
   "platform": "web",
-  "builtAt": "2026-11-10T21:28:07.384Z",
+  "builtAt": "2026-11-10T22:08:31.004Z",
   "sourceRepository": "https://github.com/bolotnikov/rings-3d",
-  "sourceRevision": "37f2903da3c2ce21b54a3c06923b87cc1d0ed271",
+  "sourceRevision": "ac8e76a6753fc65b0ebf84acaae9dc3aadfa4c66",
   "campaignSha256": "9ff7b88976f6450e878ef8f422c0a1c24c3c5a493d1bdfbfeb7359585943d84f",
   "files": [
     {
@@ -77,9 +77,9 @@
       "sha256": "f40c0bc5b58ef33989f5768884dab90bc2fe3781ec78d1cd7f43e74db0c0402b"
     },
     {
-      "path": "assets/browserAll-K71OHSTU.js",
+      "path": "assets/browserAll-CJopsybc.js",
       "bytes": 43507,
-      "sha256": "100ec9049398c86d7550169c474a4b190c7fb413011a00640c10b76c86004d52"
+      "sha256": "512ab632e0b425e7491dc8ec1720bdc2f50beafb40bde107e71127efb7bac666"
     },
     {
       "path": "assets/Cache-fNcOcM1E.js",
@@ -292,14 +292,14 @@
       "sha256": "5056a750c42a4311360a78fa95b22d1149957740910202f8a9db15447db55ffd"
     },
     {
-      "path": "assets/index-Cp8ZeWQv.js",
-      "bytes": 1633365,
-      "sha256": "db1302b8559854a6b8d3b56b12a96a3bfadebe533984dee91e1dbe95c8ff8887"
+      "path": "assets/index-C2lWFnmY.js",
+      "bytes": 1638246,
+      "sha256": "b447242cc5bde9479b20c48e633b522995eb0bb2081a444efbeefc3f6c6a2b4b"
     },
     {
-      "path": "assets/init-C_atDks_.js",
+      "path": "assets/init-B4nd5HgZ.js",
       "bytes": 14842,
-      "sha256": "0cc7998a0cda3a106596a1ee9d89be66ac05c2bf2138b3aa0d912ff0eb34c08d"
+      "sha256": "603ea2b788094a90a418e6048cf65010f9167b8bb81a8d4d8e7a7e5a6776e414"
     },
     {
       "path": "assets/key-badge-CpfCmgsC.webp",
@@ -332,9 +332,9 @@
       "sha256": "cb52e956f227e5f0950e9e7525d6fce9cbaab3f0bb9b243ac7b1f65f5b5060e8"
     },
     {
-      "path": "assets/layout-DZY0VS34.json",
-      "bytes": 1358,
-      "sha256": "c13fd77725fb979a0e5c9403bb452191a2ea8b6d0bb95b8a6c4667d0793b4335"
+      "path": "assets/layout-CcssDXi-.json",
+      "bytes": 6338,
+      "sha256": "3e1f3584dc146c7e2ffc638510286b2f6e561f89cad22045210453dc84e4f64a"
     },
     {
       "path": "assets/lock-CLIx5fN1.webp",
@@ -1107,9 +1107,9 @@
       "sha256": "a06364428c437362d570a0db6b0a44bc50f86b8ed9e11874b2a1624ec69244d4"
     },
     {
-      "path": "assets/webworkerAll-DevqJ-fC.js",
+      "path": "assets/webworkerAll-rZJDLqwa.js",
       "bytes": 55,
-      "sha256": "720a6bb4dd9150ac33da246a6377cb5278a94f0fdce673294aef4aafd9ebbaa5"
+      "sha256": "163c5e1a5450236068cbb8df53ff5a5f591b364761290c68e37ed990a325d581"
     },
     {
       "path": "assets/wide-canopy-C49qa1d1.glb",
@@ -1134,7 +1134,7 @@
     {
       "path": "index.html",
       "bytes": 1463,
-      "sha256": "ac174f963db7382d5c4a5b1a3aeab46fc5a229d9c01ae239b1170ad3b056709e"
+      "sha256": "bea582550279e5c03ff4e9908511fbc15f58b5e4ab83717f3dec0f200eec0cea"
     },
     {
       "path": "licenses/Rubik-OFL.txt",
@@ -1144,7 +1144,7 @@
     {
       "path": "README.md",
       "bytes": 443,
-      "sha256": "8d846ef1612298c78277b56e4fffa52c73d3cf15acdd3933e1c43a480e0f1eed"
+      "sha256": "0f6e4d118b7cc1f0314f9b86a9bd9e531be085e0dc8f64324cfd6d7a21c032e7"
     }
   ]
 }
