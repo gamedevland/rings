@@ -1,11 +1,11 @@
 {
   "game": "rings-3d",
   "platform": "web",
-  "builtAt": "2026-11-10T16:57:26.578Z",
+  "builtAt": "2026-11-10T17:09:56.214Z",
   "sourceRepository": "https://github.com/bolotnikov/rings-3d",
-  "sourceRevision": "424bfffe52d6b929a3c0cb42c9fcaf95de0c5ed1",
+  "sourceRevision": "470b20705d0fee4cdabacc26b9e6ef2bdc9ee286",
   "sourceWorkingTreeDirty": false,
-  "sourceFingerprint": "43cea4abcbc57f4dd842fbe6d53094eb6b004d2c965b6e14d968875680250dec",
+  "sourceFingerprint": "d7d90ce2e7cf5c8b8f5491a0e6c351dc99485cd1874d7e6ed96f1b55dfefc10f",
   "files": [
     {
       "path": "assets/alarm-CUxlJWIA.webp",
@@ -23,9 +23,9 @@
       "sha256": "5d46712af1e71c9e153dba216f5824b73eec91889241b38cb9ba2bfb275f929c"
     },
     {
-      "path": "assets/browserAll-DYIJ6qTY.js",
+      "path": "assets/browserAll-CbwW2Imy.js",
       "bytes": 43507,
-      "sha256": "fe2c102787b71ac48dac4e40fa3dd99e58f49bf30d28660e0261d2176f8ace27"
+      "sha256": "32b60e426cc8b2eaa6d33ad8edb6d477d69413979a35e1b61bd92722780f6525"
     },
     {
       "path": "assets/Cache-fNcOcM1E.js",
@@ -123,14 +123,14 @@
       "sha256": "e405308fadc92446b43530794c76ab36ccf7c4ca68e3ed13aecf0c209f336520"
     },
     {
-      "path": "assets/index-DVCZCnym.js",
-      "bytes": 1888483,
-      "sha256": "9a404ebe5847b65aa1b1df4bbcb2819b82354603477a513cb05b09824b55a222"
+      "path": "assets/index-YBv4vm3F.js",
+      "bytes": 1888438,
+      "sha256": "189ef25cc1469a153d9302cd16746ec6de9a6f8ac451d0d03e18b70d7ffc3335"
     },
     {
-      "path": "assets/init-CGvYeV6M.js",
+      "path": "assets/init-5355GhHN.js",
       "bytes": 14842,
-      "sha256": "aaa1e90fd21683b27eaa52ca5a5a8a1f5e3fcf3422f5f6561c4b90ef111b6012"
+      "sha256": "15c1d9c5b1977fee5103c7ee068b68472d674baf58ec76b0161579b784c848ae"
     },
     {
       "path": "assets/key-badge-CpfCmgsC.webp",
@@ -468,14 +468,14 @@
       "sha256": "a06364428c437362d570a0db6b0a44bc50f86b8ed9e11874b2a1624ec69244d4"
     },
     {
-      "path": "assets/webworkerAll-DSwVcCIo.js",
+      "path": "assets/webworkerAll-CM5XgACa.js",
       "bytes": 55,
-      "sha256": "d41bac5c12dd82de270f642964c1c9ba6011fd2b72d586d9941e358b4541fbd4"
+      "sha256": "f446ce9d087936c9ead890a99e1992bac6f3908935c1a26b09903ca39bca9e91"
     },
     {
       "path": "index.html",
       "bytes": 1463,
-      "sha256": "a504258816b3390e323e2de410f11d1b3cba31e5516d93fcf47d0b9d95850812"
+      "sha256": "1ff9ef03c5d11230b2fe1e7c5f88c4b7db1f5ea6c2c696204332a5acd17a6f08"
     },
     {
       "path": "licenses/Rubik-OFL.txt",
