@@ -1,0 +1,64 @@
+{
+  "root": {
+    "type": "Container",
+    "props": {},
+    "children": {
+      "background": {
+        "type": "Sprite",
+        "props": {
+          "asset": "images/magic/stage.webp",
+          "anchor": 0.5,
+          "width": 1,
+          "height": 1,
+          "x": 0,
+          "y": 0
+        },
+        "components": {
+          "cover": {
+            "type": "StageBackground"
+          }
+        }
+      },
+      "label": {
+        "type": "Text",
+        "props": {
+          "text": "Loading…",
+          "x": 0,
+          "y": 0,
+          "anchor": 0.5,
+          "style": {
+            "fontFamily": "Rubik",
+            "fontWeight": "700",
+            "fontSize": 28,
+            "fill": "#ffffff",
+            "align": "center",
+            "stroke": {
+              "color": "#13236b",
+              "width": 2.52
+            },
+            "dropShadow": {
+              "color": "#071337",
+              "alpha": 0.4,
+              "blur": 2,
+              "distance": 2,
+              "angle": 1.5707963267948966
+            }
+          }
+        },
+        "components": {
+          "responsive": {
+            "type": "ResponsiveLayout",
+            "data": {
+              "position": "center"
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "status": {
+        "type": "BootStatus"
+      }
+    }
+  }
+}
