@@ -124,16 +124,6 @@
                   "height": 55,
                   "anchor": 0
                 }
-              },
-              "secondHand": {
-                "type": "Sprite",
-                "props": {
-                  "asset": "images/ui/hand.webp",
-                  "width": 74,
-                  "height": 55,
-                  "anchor": 0,
-                  "visible": false
-                }
               }
             }
           }

@@ -1,9 +1,9 @@
 {
   "game": "rings-3d",
   "platform": "web",
-  "builtAt": "2026-11-10T23:56:49.274Z",
+  "builtAt": "2026-11-11T08:38:51.097Z",
   "sourceRepository": "https://github.com/bolotnikov/rings-3d",
-  "sourceRevision": "aee20d0add9310f8bdbc8d38b21007739b1dca14",
+  "sourceRevision": "175e0cf1d52e1322100c350b82045d300670181d",
   "campaignSha256": "fb3794fe354533f3d36dbd7f15d947a8f974e89803e5c06f8e51d5f7c1dd9368",
   "files": [
     {
@@ -77,9 +77,9 @@
       "sha256": "f40c0bc5b58ef33989f5768884dab90bc2fe3781ec78d1cd7f43e74db0c0402b"
     },
     {
-      "path": "assets/browserAll-o0NpE3TC.js",
+      "path": "assets/browserAll-CwXBx2E-.js",
       "bytes": 43507,
-      "sha256": "8b7cf05b1e8a96bbeb395880fd8cc61da8d28c2e250e1f88a5a1953d5c6fc621"
+      "sha256": "29132581049231bfa91ab8768b2f240ab424df71e07358a7816261277163a011"
     },
     {
       "path": "assets/Cache-fNcOcM1E.js",
@@ -292,14 +292,14 @@
       "sha256": "5056a750c42a4311360a78fa95b22d1149957740910202f8a9db15447db55ffd"
     },
     {
-      "path": "assets/index-DpljwuNr.js",
-      "bytes": 1644832,
-      "sha256": "e70c73abe7c8dd7f86ffc663f6b288304d20161ee4ce979c2514de8fdff09327"
+      "path": "assets/index-CgIH1Ojp.js",
+      "bytes": 1646992,
+      "sha256": "282b37596c3e37803a2604c07f86b60fcad3749dccb311a29de2a5c47213ae72"
     },
     {
-      "path": "assets/init-Du5jnrJv.js",
+      "path": "assets/init-CWS0UjvL.js",
       "bytes": 14842,
-      "sha256": "3153dbe607dfb60d104fe7ded92eedba580b8be5548969f33fbdc996ef4c42f7"
+      "sha256": "71bf8eb4bba060e7ff62d936308aa52f26e0fc868c412195e8aef112efbc1692"
     },
     {
       "path": "assets/key-badge-CpfCmgsC.webp",
@@ -327,9 +327,9 @@
       "sha256": "804715604ae753bbd1f09ee0784b9f699205d29dfeee810722e5cbc10ae85a5d"
     },
     {
-      "path": "assets/layout-Bsi5S9eE.json",
-      "bytes": 97173,
-      "sha256": "e865093d807f1816d44dad8d411e663881186cd16f1ce029a16780871bdb3d02"
+      "path": "assets/layout-BzSgU6NR.json",
+      "bytes": 96868,
+      "sha256": "dd6b7ee655daa32441921cdcde96bb3ef0896869b6de4ab7554a0877dcdc7cb9"
     },
     {
       "path": "assets/layout-CcssDXi-.json",
@@ -417,14 +417,14 @@
       "sha256": "72d10a9835e7c5100bc160d8c39917e63a74fd1248d75db44a2911f3810710dc"
     },
     {
-      "path": "assets/presentation-ChV4rkPa.json",
-      "bytes": 757,
-      "sha256": "2f1d3878701c4d34a037c6cde0087b78b42568883ed8f9fdd206c97cffd989f9"
+      "path": "assets/presentation-D6ca4AR3.json",
+      "bytes": 782,
+      "sha256": "25c692b177d8bda52ea5df923163cb6c7bcf948d21c82e28435d89ed389cfc88"
     },
     {
-      "path": "assets/presentation3d-CnigP2NT.json",
-      "bytes": 2060,
-      "sha256": "560b9d5011e378cda387d869957e594c0d6ec42af0996c43a99a297aa6d5d136"
+      "path": "assets/presentation3d-DZ0Ia0cE.json",
+      "bytes": 1947,
+      "sha256": "e6999cb61fb15803fe2008f52383847f761188bbb9bc14abee272cba7adcc4cb"
     },
     {
       "path": "assets/progress-DQF6v0kE.webp",
@@ -1107,9 +1107,9 @@
       "sha256": "a06364428c437362d570a0db6b0a44bc50f86b8ed9e11874b2a1624ec69244d4"
     },
     {
-      "path": "assets/webworkerAll-BUYt77yd.js",
+      "path": "assets/webworkerAll-CPrkaIbY.js",
       "bytes": 55,
-      "sha256": "ec55cfa2fd9ba3e4174e69b9b359b56b2fe9b36de8ef128f97630f91a64e18e1"
+      "sha256": "5c89256886214095e4ef07478a16b1d7589fc9433d559575072ea9d1a72cd5e3"
     },
     {
       "path": "assets/wide-canopy-C49qa1d1.glb",
@@ -1134,7 +1134,7 @@
     {
       "path": "index.html",
       "bytes": 1463,
-      "sha256": "34ba1b0e1fbcd05f806219c4cea3fa87146ec81a8421d973298e9e1fc92cb925"
+      "sha256": "e868fb307ca982fff95115dd752bed0686cf2a50bdfacf8f87fdbfba1610fb08"
     },
     {
       "path": "licenses/Rubik-OFL.txt",
@@ -1144,7 +1144,7 @@
     {
       "path": "README.md",
       "bytes": 443,
-      "sha256": "56dec46260b210e9ec7abc601f8a1eea6986385634110dcab9b16c27cf209e83"
+      "sha256": "05d832c510ead605780c118a7b43161a212649e76b061c64f6e7deb964a927b7"
     }
   ]
 }

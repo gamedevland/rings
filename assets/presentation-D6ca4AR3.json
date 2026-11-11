@@ -42,6 +42,7 @@
   },
   "timing": {
     "settleSeconds": 1.02,
-    "alignmentSeconds": 0.18
+    "alignmentSeconds": 0.22,
+    "exitSeconds": 0.14
   }
 }

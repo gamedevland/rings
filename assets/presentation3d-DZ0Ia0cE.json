@@ -5,7 +5,6 @@
   "yaw": -0.42,
   "pitch": 0.35,
   "orbitSpeed": 0.008,
-  "maxPitch": 1.35,
   "margin": 22,
   "portraitTop": 205,
   "portraitBottom": 215,
@@ -72,15 +71,7 @@
     "headingOffset": 3,
     "detailOffset": 34,
     "arc": 1.15,
-    "idleSeconds": 15,
-    "zoom": {
-      "near": 38,
-      "far": 105,
-      "y": 20,
-      "arrowOffset": 32,
-      "touchRadius": 12,
-      "handPulse": 0.04
-    }
+    "idleSeconds": 15
   },
   "entrance": {
     "seconds": 1.15,
@@ -100,16 +91,19 @@
     "head": 8,
     "alpha": 0.85
   },
-  "zoom": {
-    "minimum": 0.8,
-    "maximum": 2.4,
-    "wheelSpeed": 0.0015,
-    "tutorialIn": 1.12,
-    "tutorialOut": 1.03
-  },
   "hitPadding": 18,
   "pull": {
     "pixelsPerRadian": 80,
-    "minimumDistance": 6
-  }
+    "minimumDistance": 6,
+    "arc": {
+      "minimumAngle": 0.45,
+      "relativeTolerance": 0.18,
+      "turn": 0.3
+    }
+  },
+  "reframe": {
+    "seconds": 0.42,
+    "padding": 0.12
+  },
+  "exitDistance": 0.35
 }
