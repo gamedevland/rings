@@ -1,9 +1,9 @@
 {
   "game": "rings-3d",
   "platform": "web",
-  "builtAt": "2026-11-11T08:38:51.097Z",
+  "builtAt": "2026-11-11T09:42:40.062Z",
   "sourceRepository": "https://github.com/bolotnikov/rings-3d",
-  "sourceRevision": "175e0cf1d52e1322100c350b82045d300670181d",
+  "sourceRevision": "93fcd0b55e875707a52d1e9d86f5879f6ffc8cae",
   "campaignSha256": "fb3794fe354533f3d36dbd7f15d947a8f974e89803e5c06f8e51d5f7c1dd9368",
   "files": [
     {
@@ -77,9 +77,9 @@
       "sha256": "f40c0bc5b58ef33989f5768884dab90bc2fe3781ec78d1cd7f43e74db0c0402b"
     },
     {
-      "path": "assets/browserAll-CwXBx2E-.js",
+      "path": "assets/browserAll--JcKKAot.js",
       "bytes": 43507,
-      "sha256": "29132581049231bfa91ab8768b2f240ab424df71e07358a7816261277163a011"
+      "sha256": "16d7507f01093c36ed2a1ee10a7eb6304cc59343a42fac9df22f0e68b9e8b022"
     },
     {
       "path": "assets/Cache-fNcOcM1E.js",
@@ -292,14 +292,14 @@
       "sha256": "5056a750c42a4311360a78fa95b22d1149957740910202f8a9db15447db55ffd"
     },
     {
-      "path": "assets/index-CgIH1Ojp.js",
-      "bytes": 1646992,
-      "sha256": "282b37596c3e37803a2604c07f86b60fcad3749dccb311a29de2a5c47213ae72"
+      "path": "assets/index-P4RBwUr6.js",
+      "bytes": 1563322,
+      "sha256": "580a74f78bb3a6fb1a69da05eb89588d08f6e4b87b6ccc183097591733a773be"
     },
     {
-      "path": "assets/init-CWS0UjvL.js",
+      "path": "assets/init-CwhQDhgv.js",
       "bytes": 14842,
-      "sha256": "71bf8eb4bba060e7ff62d936308aa52f26e0fc868c412195e8aef112efbc1692"
+      "sha256": "213353fc91c19b430f76453678915c491b35e986013d489f6f46ac83a092de22"
     },
     {
       "path": "assets/key-badge-CpfCmgsC.webp",
@@ -327,14 +327,14 @@
       "sha256": "804715604ae753bbd1f09ee0784b9f699205d29dfeee810722e5cbc10ae85a5d"
     },
     {
-      "path": "assets/layout-BzSgU6NR.json",
-      "bytes": 96868,
-      "sha256": "dd6b7ee655daa32441921cdcde96bb3ef0896869b6de4ab7554a0877dcdc7cb9"
+      "path": "assets/layout-DpqE2XJA.json",
+      "bytes": 97168,
+      "sha256": "a5b26f67eb767519b6cab54984652a80326fb7ba67ea27208c9e8ea5e77dea42"
     },
     {
-      "path": "assets/layout-CcssDXi-.json",
-      "bytes": 6338,
-      "sha256": "3e1f3584dc146c7e2ffc638510286b2f6e561f89cad22045210453dc84e4f64a"
+      "path": "assets/layout-g2WE1XHD.json",
+      "bytes": 5744,
+      "sha256": "6d8a7e131bcbbf325cdd9c44c5447aad398a069dd57195297dfca25a8e06b3c1"
     },
     {
       "path": "assets/lock-CLIx5fN1.webp",
@@ -422,9 +422,9 @@
       "sha256": "25c692b177d8bda52ea5df923163cb6c7bcf948d21c82e28435d89ed389cfc88"
     },
     {
-      "path": "assets/presentation3d-DZ0Ia0cE.json",
-      "bytes": 1947,
-      "sha256": "e6999cb61fb15803fe2008f52383847f761188bbb9bc14abee272cba7adcc4cb"
+      "path": "assets/presentation3d-BpYeHZoc.json",
+      "bytes": 1536,
+      "sha256": "daf7a7e9eece6b80fa33a55321ac7348f8a3f18e39fe7baea7a9c49f9c89e8aa"
     },
     {
       "path": "assets/progress-DQF6v0kE.webp",
@@ -1062,6 +1062,16 @@
       "sha256": "5f913846336ef5aee47865c2277b013b7785234ff64a142afbef283618bdfa53"
     },
     {
+      "path": "assets/three-C_HfMQIF.json",
+      "bytes": 1362,
+      "sha256": "b12b24f667feb1284b4a24fc7ecb5ab9faed2bf3d597ce96dc62581e1c2b81d3"
+    },
+    {
+      "path": "assets/three-DjYg_QDl.json",
+      "bytes": 1344,
+      "sha256": "be8a4ddaf0119d0c956313dda472d7b8e0854759dc028f78e5610e6a030bcdd7"
+    },
+    {
       "path": "assets/toggle-off-Tu9QwZ6Z.webp",
       "bytes": 5686,
       "sha256": "8e9368cb178605a1aa0b986acc6e2cdeb65aaf51bfb5821e55c15c4fb6b6b7e0"
@@ -1107,9 +1117,9 @@
       "sha256": "a06364428c437362d570a0db6b0a44bc50f86b8ed9e11874b2a1624ec69244d4"
     },
     {
-      "path": "assets/webworkerAll-CPrkaIbY.js",
+      "path": "assets/webworkerAll-B-9FDViu.js",
       "bytes": 55,
-      "sha256": "5c89256886214095e4ef07478a16b1d7589fc9433d559575072ea9d1a72cd5e3"
+      "sha256": "730bfb1d5f553a7d7028a887a9497fd13ca112ef5081472f3b3f3811f524da66"
     },
     {
       "path": "assets/wide-canopy-C49qa1d1.glb",
@@ -1134,7 +1144,7 @@
     {
       "path": "index.html",
       "bytes": 1463,
-      "sha256": "e868fb307ca982fff95115dd752bed0686cf2a50bdfacf8f87fdbfba1610fb08"
+      "sha256": "8fa261e0a47f24d417a56a31aa439908be6731e1e56fc093e9250c2f5c26de91"
     },
     {
       "path": "licenses/Rubik-OFL.txt",
@@ -1144,7 +1154,7 @@
     {
       "path": "README.md",
       "bytes": 443,
-      "sha256": "05d832c510ead605780c118a7b43161a212649e76b061c64f6e7deb964a927b7"
+      "sha256": "6732113360461339910a3f821a21a571420c67401122a32075d44d72d04f92cd"
     }
   ]
 }

@@ -40,9 +40,16 @@
             "type": "Container",
             "children": {
               "scene": {
-                "type": "Sprite",
+                "type": "ThreeViewport",
                 "props": {
-                  "anchor": 0.5
+                  "anchor": 0.5,
+                  "width": 1,
+                  "height": 1,
+                  "resolution": 2,
+                  "exposure": 1.15,
+                  "sceneLayout": "json/layouts/scenes/game/three.json",
+                  "camera": "world.camera",
+                  "renderMode": "on-demand"
                 }
               }
             }

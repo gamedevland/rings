@@ -1,7 +1,5 @@
 {
   "fov": 32,
-  "resolution": 2,
-  "exposure": 1.15,
   "yaw": -0.42,
   "pitch": 0.35,
   "orbitSpeed": 0.008,
@@ -12,7 +10,6 @@
   "landscapeBottom": 196,
   "framing": 1.14,
   "blockedSeconds": 0.22,
-  "ambient": 1.5,
   "palette": [
     11693550,
     4573670,
@@ -22,30 +19,6 @@
     15825587,
     7507455,
     16753568
-  ],
-  "ambientColor": 14477567,
-  "lights": [
-    {
-      "color": 16777215,
-      "intensity": 3.5,
-      "x": -4,
-      "y": 6,
-      "z": 8
-    },
-    {
-      "color": 10214655,
-      "intensity": 2,
-      "x": 5,
-      "y": 1,
-      "z": 4
-    },
-    {
-      "color": 16767392,
-      "intensity": 3,
-      "x": 0,
-      "y": -3,
-      "z": -4
-    }
   ],
   "metalness": 0.42,
   "roughness": 0.22,

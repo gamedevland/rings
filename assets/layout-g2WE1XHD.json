@@ -58,9 +58,16 @@
             "props": {},
             "children": {
               "scene": {
-                "type": "Sprite",
+                "type": "ThreeViewport",
                 "props": {
-                  "anchor": 0.5
+                  "anchor": 0.5,
+                  "width": 340,
+                  "height": 340,
+                  "resolution": 1.5,
+                  "exposure": 1.3,
+                  "sceneLayout": "json/layouts/scenes/boot/three.json",
+                  "camera": "world.camera",
+                  "renderMode": "on-demand"
                 }
               }
             },
@@ -70,8 +77,6 @@
                 "data": {
                   "ringAsset": "models/shapes/arc.glb",
                   "claspAsset": "models/clasp.glb",
-                  "size": 340,
-                  "resolution": 1.5,
                   "seconds": 9,
                   "radius": 0.8,
                   "bridge": 0.24,
@@ -82,33 +87,6 @@
                   "secondColor": 8124148,
                   "metalness": 0.52,
                   "roughness": 0.22,
-                  "exposure": 1.3,
-                  "fov": 33,
-                  "cameraDistance": 6.6,
-                  "ambient": 1.8,
-                  "lights": [
-                    {
-                      "color": 16773350,
-                      "intensity": 4,
-                      "x": -3,
-                      "y": 4,
-                      "z": 5
-                    },
-                    {
-                      "color": 9541119,
-                      "intensity": 2.5,
-                      "x": 4,
-                      "y": 1,
-                      "z": 2
-                    },
-                    {
-                      "color": 16755398,
-                      "intensity": 3,
-                      "x": 0,
-                      "y": 2,
-                      "z": -4
-                    }
-                  ],
                   "motion": {
                     "tilt": 0.3,
                     "tiltRock": 0.16,

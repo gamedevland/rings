@@ -3,7 +3,7 @@
 Playable web build for [GameDev.Land](https://gamedev.land/games/rings).
 
 - Play: https://gamedevland.github.io/rings/
-- Source revision: `175e0cf1d52e1322100c350b82045d300670181d`.
+- Source revision: `93fcd0b55e875707a52d1e9d86f5879f6ffc8cae`.
 - Campaign: 100 spatial puzzles, 27 shared physical shapes, nonlinear shared gates and permanent owner-mounted lockers.
 - Platform: web; no Poki SDK is loaded.
 
